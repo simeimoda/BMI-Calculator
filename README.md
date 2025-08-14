@@ -27,6 +27,6 @@ While developing this project, I learned:
 ![Portfolio Screenshot](images/screenshot.png)
 
 ## 🚀 How to Use
-- **Option 1**: Access this url: https://simeimoda.github.io/Altgram-login-page/index.html
+- **Option 1:** Open the project directly in your browser: [https://simeimoda.github.io/Altgram-login-page/index.html](https://simeimoda.github.io/BMI-Calculator/)
 - **Option 2**: Clone the repository and open `index.html` in a browser.
 
