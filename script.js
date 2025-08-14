@@ -31,7 +31,7 @@ function calcular(event){
     resultado = document.getElementById('resultado');
 
     if(peso ==='' || altura===''){
-        resultado.innerHTML = 'Por favor, preencha os campos antes de calcular.';
+        resultado.innerHTML = 'Por favor, preencha os campos para calcular.';
         return;
     }
 
@@ -60,4 +60,5 @@ function limpar(){
     document.getElementById('peso').value = '';
     document.getElementById('altura').value = '';
     resultado.innerHTML = '';
+
 }
