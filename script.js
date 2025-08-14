@@ -28,12 +28,20 @@ function calcular(event){
     console.log(peso);
     console.log(altura);
 
+    resultado = document.getElementById('resultado');
 
+    if(peso ==='' || altura===''){
+        resultado.innerHTML = 'Por favor, preencha os campos antes de calcular.';
+        return;
+    }
+
+    if(isNaN(peso) || isNaN(altura)){
+        resultado.innerHTML = 'Por favor, digite apenas números.';
+        return;
+    }
 
     imc = peso / (altura *altura);
     
-    resultado = document.getElementById('resultado');
-
     if(imc < 17){
         resultado.innerHTML = '<br/> Seu resultado foi: ' + imc.toFixed(2) + '<br/> Você está muito abaixo do peso! ⚠️';
     }else if(imc >= 17 && imc <= 18.49){
